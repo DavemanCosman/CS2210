@@ -1,0 +1,27 @@
+#include <stdio.h>
+main(){
+/* Calculates the ramaining balance on a loana after each of the first n
+monthly payments*/
+double loan = -1; /*amount in the loan, user input*/
+double rate = -1; /*the yearly interest rate, user input*/
+double m = -1; /*number of monthly payments*/
+int n = -1; /*number of monthly payments, user input*/
+
+while (loan<0){
+	printf("Enter the amount of the loan\n");
+	scanf("%lf", &loan);
+}
+while (rate<0){
+	printf("Enter the amount of the interest rate\n");
+        scanf("%lf", &rate);
+}
+while (m < 0){
+printf("Enter the amount of the monthly payment\n");
+        scanf("%lf", &m);
+}
+while (n < 0){
+	printf("Enter the number of monthly payments\n");
+        scanf("%d", &n);
+	if (n isNot int)
+}
+}

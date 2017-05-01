@@ -1,0 +1,5 @@
+This is a text file
+I am writing on it
+UNIX is great!
+These are more lines
+This is the last line

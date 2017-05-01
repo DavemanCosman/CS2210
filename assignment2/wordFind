@@ -1,0 +1,7 @@
+#!/bin/sh
+if grep "UNIX" tester.txt >/dev/null
+then
+echo UNIX occurs in tester.txt
+else
+echo UNIX does not occur in tester.txt
+fi

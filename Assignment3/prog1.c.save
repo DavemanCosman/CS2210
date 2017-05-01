@@ -1,0 +1,18 @@
+#include <stdio.h>
+main(){
+int timeOfDay=2250;
+int timeDuration=0;
+printf("Enter the time of the day in 24h format;\n");
+scanf("%d", &timeOfDay);
+while (timeOfDay > 2359)
+{
+	printf("Try again. Enter a valid 24h time of day");
+	scanf("%d", &timeOfDay);
+}
+	if (timeOfDay >= 2300)
+	{
+		int temp = timeOfDay-2300
+	}
+printf("Enter the duration of time;\n");
+scanf("%d", &timeDuration);
+}
